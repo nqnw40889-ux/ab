@@ -1,0 +1,14 @@
+Training: Logistic Regression
+Training: Random Forest
+Training: XGBoost
+Training: LightGBM
+Training: Logistic Regression - weighted
+Training: Random Forest - weighted
+Training: XGBoost - weighted
+Training: LightGBM - weighted
+Train-only CV: 12 candidates x 3 folds
+     Split  Threshold  Accuracy  Precision   Recall       F1       AP  PR_AUC_trapezoid    Brier   TN  FP  FN  TP
+     Train   0.266037  0.994429   0.905738 0.932489 0.918919 0.975683          0.975653 0.004930 6740  23  16 221
+Validation   0.266037  0.984667   0.769231 0.784314 0.776699 0.783474          0.780019 0.013170 1437  12  11  40
+      Test   0.266037  0.980667   0.703704 0.745098 0.723810 0.800627          0.799256 0.013093 1433  16  13  38
+Saved rebuild_run
